@@ -1,0 +1,70 @@
+@import "normalize.less";
+
+@main-colour: #c09843;
+
+html
+{
+  background-color: #16204a;
+  color: @main-colour;
+  font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  text-align: center;
+
+  body
+  {
+    height: 100%;
+
+    div.outer
+    {
+      display: block;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+
+      div.inner
+      {
+        height: 95%;
+        width: 95%;
+        margin: 0 auto;
+        border: 10px double @main-colour;
+      }
+
+      div.top
+      {
+        margin: 0 auto;
+        height: 10%;
+
+        span
+        {
+          font-style: italic;
+        }
+      }
+
+      div.middle
+      {
+        height: 80%;
+        width: 100%;
+
+        background: url(../img/pmklogo.png) no-repeat  fixed top center;
+
+        div
+        {
+          position: relative;
+          top: 75%;
+        }
+      }
+
+      div.bottom
+      {
+        height: 10%;
+        margin: 0 auto;
+
+        a
+        {
+          text-decoration: none;
+          color: @main-colour;
+        }
+      }
+    }
+  }
+}

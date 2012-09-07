@@ -50,8 +50,8 @@ input:invalid,textarea:invalid{background-color:#f0dddd;}
 table{border-collapse:collapse;border-spacing:0;}
 td{vertical-align:top;}
 .chromeframe{margin:0.2em 0;background:#ccc;color:black;padding:0.2em 0;}
-html{background-color:#16204a;color:#c09843;font-family:"Myriad Pro",Helvetica,Arial,sans-serif;font-size:32px;text-align:center;}html body{height:100%;}html body div.outer{display:block;position:absolute;height:auto;width:100%;overflow:auto;padding-top:5px;}html body div.outer div.inner{height:95%;width:95%;margin:0 auto;border:10px double #c09843;}html body div.outer div.inner div.top{margin:10px auto;}html body div.outer div.inner div.top span{font-style:italic;}
+html{background-color:#16204a;color:#c09843;font-family:"Myriad Pro",Helvetica,Arial,sans-serif;font-size:32px;text-align:center;}html body{height:100%;}html body div.outer{display:block;position:absolute;height:auto;width:100%;overflow:auto;padding-top:5px;padding-bottom:5px;}html body div.outer div.inner{height:95%;width:95%;margin:0 auto;border:10px double #c09843;}html body div.outer div.inner div.top{margin:10px auto;}html body div.outer div.inner div.top span{font-style:italic;}
 html body div.outer div.inner div.middle{width:100%;}html body div.outer div.inner div.middle img{height:auto;width:40%;margin-bottom:25px;}
 html body div.outer div.inner div.middle div{margin:10px auto;}
-html body div.outer div.inner div.bottom{margin:10% auto 15px;}html body div.outer div.inner div.bottom a{text-decoration:none;color:#c09843;}
+html body div.outer div.inner div.bottom{margin:6% auto 60px;}html body div.outer div.inner div.bottom a{text-decoration:none;color:#c09843;}
 @media screen and (max-width:480px){body{width:auto;}body div.outer{width:auto !important;margin:0 auto;}body div.outer div.inner{width:auto !important;}body div.outer div.inner div.bottom a{font-size:18px;}}@media screen and (max-width:325px){div.bottom a{font-size:16px;}}
